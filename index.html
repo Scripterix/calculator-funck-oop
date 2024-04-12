@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Calc demo</title>
+  <link href="bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="display-5">Math Function & Bootstrap Functional</h1>
+    <div class="row">
+      <h2 class="display-6">Sum +</h2>
+      <div class="col-4">
+        <div class="mb-3">
+          <label for="Input1" class="form-label fs-5">First Digit</label>
+          <input type="number" class="form-control" id="input1" placeholder="input digit">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="mb-3">
+          <label for="Input2" class="form-label fs-5">Second Digit </label>
+          <input type="number" class="form-control" id="input2" placeholder="input digit">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="mb-3">
+          <label for="Input3" class="form-label fs-5">Result </label>
+          <input type="number" class="form-control" id="input3" placeholder="input result">
+        </div>
+      </div>
+
+      <div class="row">
+        <h2 class="display-6">Sub -</h2>
+        <div class="col-4">
+          <div class="mb-3">
+            <label for="Input4" class="form-label fs-5">First Digit</label>
+            <input type="number" class="form-control" id="input4" placeholder="input digit">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="mb-3">
+            <label for="Input5" class="form-label fs-5">Second Digit </label>
+            <input type="number" class="form-control" id="input5" placeholder="input digit">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="mb-3">
+            <label for="Input6" class="form-label fs-5">Result </label>
+            <input type="number" class="form-control" id="input6" placeholder="input result">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container my-4">
+      <h1 class="display-5">Object-Oriented Calculator</h1>
+      <div class="row">
+        <div class="col-4">
+          <div class="mb-3">
+            <label for="operand1" class="form-label fs-5">First #</label>
+            <input type="number" class="form-control" id="operand1" placeholder="Enter first operand">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="mb-3">
+            <label for="operator" class="form-label fs-5">Operator (+, -)</label>
+            <input type="text" class="form-control" id="operator" placeholder="Enter operator (+, -)">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="mb-3">
+            <label for="operand2" class="form-label fs-5">Second #</label>
+            <input type="number" class="form-control" id="operand2" placeholder="Enter second operand">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <button id="calculate" class="btn btn-primary">Calculate</button>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-4">
+          <div class="mb-3">
+            <label for="result" class="form-label fs-5">Result</label>
+            <input type="number" class="form-control" id="result" placeholder="Result" readonly>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="bootstrap.js"></script>
+    <script src="main-function.js"></script>
+</body>
+
+</html>
