@@ -6,7 +6,7 @@ Prosty projekt **kalkulatora w JavaScript** z użyciem programowania obiektowego
 
 Zobacz projekt na żywo (jeśli wdrożysz GitHub Pages):
 
-[👉 Live Demo (GitHub Pages)](https://scripterix.github.io/calculator-funck-oop/)
+[👉 Live Demo (Opengatewebs)](https://opengateweb.com/posts/9-post-calc/)
 
 ## 🔷 Funkcje
 
